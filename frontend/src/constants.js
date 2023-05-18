@@ -1,0 +1,10 @@
+const SHIPMENT_STATUSES = [
+    'PENDING',
+    'IN_TRANSIT',
+    'DELIVERED',
+    'CANCELLED'
+]
+
+export {
+    SHIPMENT_STATUSES
+}

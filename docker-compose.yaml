@@ -1,0 +1,29 @@
+version: '3'
+name: shipmentstest
+services:
+  backend:
+    container_name: shipmentstest-backend
+    command: "python manage.py runserver 0.0.0.0:8000"
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      - DJANGO_DEBUG=${DJANGO_DEBUG}
+      - DJANGO_SECRET_KEY=${DJANGO_SECRET_KEY}
+      - DJANGO_DATABASE_FILE=${DJANGO_DATABASE_FILE}
+      - DJANGO_CORS_ALLOWED_ORIGINS=${DJANGO_CORS_ALLOWED_ORIGINS}
+    ports:
+      - "${BACKEND_PORT}:8000"
+    volumes:
+      - ./backend:/app
+
+  frontend:
+    container_name: shipmentstest-frontend
+    command: npm run serve -- --port 8080
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    environment:
+      - VUE_APP_API_URL=${VUE_APP_API_URL}
+    ports:
+      - "${FRONTEND_PORT}:8080"

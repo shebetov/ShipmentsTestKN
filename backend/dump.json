@@ -1,0 +1,523 @@
+[
+{
+  "model": "catalog.item",
+  "pk": 1,
+  "fields": {
+    "name": "Display Dell X3000",
+    "weight": "761.634",
+    "is_fragile": false,
+    "created_at": "2023-05-17T19:39:50.900Z"
+  }
+},
+{
+  "model": "catalog.item",
+  "pk": 2,
+  "fields": {
+    "name": "Wireless Mouse Logitech",
+    "weight": "182.231",
+    "is_fragile": false,
+    "created_at": "2023-05-17T19:39:50.910Z"
+  }
+},
+{
+  "model": "catalog.item",
+  "pk": 3,
+  "fields": {
+    "name": "Wireless Keyboard Logitech",
+    "weight": "317.422",
+    "is_fragile": false,
+    "created_at": "2023-05-17T19:39:50.919Z"
+  }
+},
+{
+  "model": "catalog.item",
+  "pk": 4,
+  "fields": {
+    "name": "WiFi Router ZTE",
+    "weight": "855.792",
+    "is_fragile": false,
+    "created_at": "2023-05-17T19:39:50.928Z"
+  }
+},
+{
+  "model": "catalog.item",
+  "pk": 5,
+  "fields": {
+    "name": "Laptop Asus UX450",
+    "weight": "534.650",
+    "is_fragile": false,
+    "created_at": "2023-05-17T19:39:50.936Z"
+  }
+},
+{
+  "model": "catalog.item",
+  "pk": 6,
+  "fields": {
+    "name": "HDMI Cable Gigabyte 3M",
+    "weight": "919.011",
+    "is_fragile": false,
+    "created_at": "2023-05-17T19:39:50.944Z"
+  }
+},
+{
+  "model": "catalog.item",
+  "pk": 7,
+  "fields": {
+    "name": "Screw M5x20",
+    "weight": "265.525",
+    "is_fragile": false,
+    "created_at": "2023-05-17T19:39:50.953Z"
+  }
+},
+{
+  "model": "catalog.item",
+  "pk": 8,
+  "fields": {
+    "name": "Microwave Aura",
+    "weight": "327.033",
+    "is_fragile": false,
+    "created_at": "2023-05-17T19:39:50.962Z"
+  }
+},
+{
+  "model": "catalog.item",
+  "pk": 9,
+  "fields": {
+    "name": "Charging Cable Asus",
+    "weight": "295.081",
+    "is_fragile": false,
+    "created_at": "2023-05-17T19:39:50.970Z"
+  }
+},
+{
+  "model": "catalog.item",
+  "pk": 10,
+  "fields": {
+    "name": "Charging Block Asus",
+    "weight": "109.582",
+    "is_fragile": false,
+    "created_at": "2023-05-17T19:39:50.979Z"
+  }
+},
+{
+  "model": "shipments.country",
+  "pk": 1,
+  "fields": {
+    "name": "Romania"
+  }
+},
+{
+  "model": "shipments.country",
+  "pk": 2,
+  "fields": {
+    "name": "Poland"
+  }
+},
+{
+  "model": "shipments.country",
+  "pk": 3,
+  "fields": {
+    "name": "Slovenia"
+  }
+},
+{
+  "model": "shipments.country",
+  "pk": 4,
+  "fields": {
+    "name": "Sweden"
+  }
+},
+{
+  "model": "shipments.country",
+  "pk": 5,
+  "fields": {
+    "name": "Switzerland"
+  }
+},
+{
+  "model": "shipments.country",
+  "pk": 6,
+  "fields": {
+    "name": "Serbia"
+  }
+},
+{
+  "model": "shipments.country",
+  "pk": 7,
+  "fields": {
+    "name": "Spain"
+  }
+},
+{
+  "model": "shipments.country",
+  "pk": 8,
+  "fields": {
+    "name": "Slovakia"
+  }
+},
+{
+  "model": "shipments.country",
+  "pk": 9,
+  "fields": {
+    "name": "Portugal"
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 1,
+  "fields": {
+    "name": "Warsaw",
+    "country": 2
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 2,
+  "fields": {
+    "name": "Wroclaw",
+    "country": 2
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 3,
+  "fields": {
+    "name": "Lisbon",
+    "country": 9
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 4,
+  "fields": {
+    "name": "Porto",
+    "country": 9
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 5,
+  "fields": {
+    "name": "Bucharest",
+    "country": 1
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 6,
+  "fields": {
+    "name": "Cluj-Napoca",
+    "country": 1
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 7,
+  "fields": {
+    "name": "Iasi",
+    "country": 1
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 8,
+  "fields": {
+    "name": "Timisoara",
+    "country": 1
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 9,
+  "fields": {
+    "name": "Belgrade",
+    "country": 6
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 10,
+  "fields": {
+    "name": "Bratislava",
+    "country": 8
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 11,
+  "fields": {
+    "name": "Ljubljana",
+    "country": 3
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 12,
+  "fields": {
+    "name": "Barcelona",
+    "country": 7
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 13,
+  "fields": {
+    "name": "Madrid",
+    "country": 7
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 14,
+  "fields": {
+    "name": "Seville",
+    "country": 7
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 15,
+  "fields": {
+    "name": "Valencia",
+    "country": 7
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 16,
+  "fields": {
+    "name": "Gothenburg",
+    "country": 4
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 17,
+  "fields": {
+    "name": "Malmo",
+    "country": 4
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 18,
+  "fields": {
+    "name": "Stockholm",
+    "country": 4
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 19,
+  "fields": {
+    "name": "Basel",
+    "country": 5
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 20,
+  "fields": {
+    "name": "Bern",
+    "country": 5
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 21,
+  "fields": {
+    "name": "Geneva",
+    "country": 5
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 22,
+  "fields": {
+    "name": "Lausanne",
+    "country": 5
+  }
+},
+{
+  "model": "shipments.city",
+  "pk": 23,
+  "fields": {
+    "name": "Zurich",
+    "country": 5
+  }
+},
+{
+  "model": "shipments.shipment",
+  "pk": 1,
+  "fields": {
+    "status": "PENDING",
+    "city": 16,
+    "address": "54988 Christina Loop Apt. 600",
+    "comment": null,
+    "created_at": "2023-05-17T19:39:50.988Z",
+    "updated_at": "2023-05-17T19:39:51.417Z",
+    "sent_at": null,
+    "items": [
+      3,
+      2
+    ]
+  }
+},
+{
+  "model": "shipments.shipment",
+  "pk": 2,
+  "fields": {
+    "status": "PENDING",
+    "city": 1,
+    "address": "063 Yates Hill",
+    "comment": null,
+    "created_at": "2023-05-17T19:39:51.001Z",
+    "updated_at": "2023-05-17T19:39:51.386Z",
+    "sent_at": null,
+    "items": [
+      4,
+      3,
+      1
+    ]
+  }
+},
+{
+  "model": "shipments.shipment",
+  "pk": 3,
+  "fields": {
+    "status": "PENDING",
+    "city": 5,
+    "address": "18536 Bradshaw Divide Apt. 244",
+    "comment": "ASAP Delivery",
+    "created_at": "2023-05-17T19:39:51.010Z",
+    "updated_at": "2023-05-17T19:39:51.336Z",
+    "sent_at": null,
+    "items": [
+      1
+    ]
+  }
+},
+{
+  "model": "shipments.shipment",
+  "pk": 4,
+  "fields": {
+    "status": "IN_TRANSIT",
+    "city": 14,
+    "address": "2092 Jerry Springs",
+    "comment": "Ask confirmation document",
+    "created_at": "2023-05-17T19:39:51.020Z",
+    "updated_at": "2023-05-17T19:39:51.319Z",
+    "sent_at": null,
+    "items": [
+      9,
+      3,
+      2
+    ]
+  }
+},
+{
+  "model": "shipments.shipment",
+  "pk": 5,
+  "fields": {
+    "status": "PENDING",
+    "city": 7,
+    "address": "824 Bentley Cove Suite 062",
+    "comment": null,
+    "created_at": "2023-05-17T19:39:51.029Z",
+    "updated_at": "2023-05-17T19:39:51.275Z",
+    "sent_at": null,
+    "items": [
+      10,
+      8,
+      7,
+      2
+    ]
+  }
+},
+{
+  "model": "shipments.shipment",
+  "pk": 6,
+  "fields": {
+    "status": "PENDING",
+    "city": 2,
+    "address": "57532 Cardenas Rue",
+    "comment": "Ask confirmation document",
+    "created_at": "2023-05-17T19:39:51.038Z",
+    "updated_at": "2023-05-17T19:39:51.229Z",
+    "sent_at": null,
+    "items": [
+      8,
+      3,
+      2
+    ]
+  }
+},
+{
+  "model": "shipments.shipment",
+  "pk": 7,
+  "fields": {
+    "status": "PENDING",
+    "city": 3,
+    "address": "933 Vernon Glen Suite 701",
+    "comment": null,
+    "created_at": "2023-05-17T19:39:51.047Z",
+    "updated_at": "2023-05-17T19:39:51.196Z",
+    "sent_at": null,
+    "items": [
+      10,
+      9,
+      1
+    ]
+  }
+},
+{
+  "model": "shipments.shipment",
+  "pk": 8,
+  "fields": {
+    "status": "PENDING",
+    "city": 12,
+    "address": "05643 Mitchell Fall",
+    "comment": "Ask confirmation document",
+    "created_at": "2023-05-17T19:39:51.056Z",
+    "updated_at": "2023-05-17T19:39:51.158Z",
+    "sent_at": null,
+    "items": [
+      7,
+      4
+    ]
+  }
+},
+{
+  "model": "shipments.shipment",
+  "pk": 9,
+  "fields": {
+    "status": "PENDING",
+    "city": 16,
+    "address": "297 Garza Islands",
+    "comment": null,
+    "created_at": "2023-05-17T19:39:51.065Z",
+    "updated_at": "2023-05-17T19:39:51.124Z",
+    "sent_at": null,
+    "items": [
+      4,
+      1
+    ]
+  }
+},
+{
+  "model": "shipments.shipment",
+  "pk": 10,
+  "fields": {
+    "status": "PENDING",
+    "city": 8,
+    "address": "71662 Jefferson Avenue",
+    "comment": null,
+    "created_at": "2023-05-17T19:39:51.080Z",
+    "updated_at": "2023-05-17T19:39:51.098Z",
+    "sent_at": null,
+    "items": [
+      2
+    ]
+  }
+}
+]
